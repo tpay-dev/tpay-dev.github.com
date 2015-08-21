@@ -8,16 +8,6 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-65954005-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
   </head>
   <body>
     <section class="page-header">
@@ -51,11 +41,22 @@
 </ul>
 
 <h3>
-<a id="tpay-심플결제-api-서비스" class="anchor" href="#tpay-%EC%8B%AC%ED%94%8C%EA%B2%B0%EC%A0%9C-api-%EC%84%9C%EB%B9%84%EC%8A%A4" aria-hidden="true"><span class="octicon octicon-link"></span></a>tPay 심플결제 API 서비스</h3>
+<a id="tpay-api-심플결제-서비스" class="anchor" href="#tpay-api-%EC%8B%AC%ED%94%8C%EA%B2%B0%EC%A0%9C-%EC%84%9C%EB%B9%84%EC%8A%A4" aria-hidden="true"><span class="octicon octicon-link"></span></a>tPay API 심플결제 서비스</h3>
 
 <blockquote>
-<p>이제까지 경험하지 못했던 API 서비스를 준비중입니다.  </p>
+<p>이제까지 경험하지 못했던 최고의 결제 서비스 - tPay API 심플결제 서비스!</p>
+
+<p>이제 더이상 stripe 이 부럽지 않습니다. tPay API 심플결제 서비스로 시작하세요!</p>
 </blockquote>
+
+<pre><code>$ curl  https://webtx.tpay.co.kr/api/v1/payments \
+   -d api_key=hgEY70BdDgoJYVOwj5CHsRDQt5a6IieQLQv \
+   -d mid=tpaytest1m \
+   -d amt=1004 \
+   -d card_num=1234123412341234
+</code></pre>
+
+<p><a href="https://tpay.co.kr/techsupport/ResourceTPayRestful.jsp?sub=3_1">메뉴얼 및 예제</a></p>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
